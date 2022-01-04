@@ -1,12 +1,16 @@
-import { Grid } from "@material-ui/core"
+import React, { useEffect } from "react"
+import { Switch, Route } from "react-router-dom"
+//COMPONENTS
+import Typographymui from "./Typographymui"
 function App() {
   return (
-    <Grid container direction="column">
-      <Grid item>this is where the header will be</Grid>
-      <Grid item container>
-        <Grid xs={12}></Grid>
-      </Grid>
-    </Grid>
+    <>
+      <Switch>
+        <Route path="/" exact>
+          <Typographymui />
+        </Route>
+      </Switch>
+    </>
   )
 }
 
