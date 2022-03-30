@@ -5,7 +5,7 @@ import { green } from "@material-ui/core/colors"
 const useStyles = makeStyles({
   btn: {
     fontSize: 50,
-    backgroundColor: "voilet",
+    backgroundColor: "green",
     border: "1px solid red",
     transition: "all 2s ease-out",
     "&:hover": {
